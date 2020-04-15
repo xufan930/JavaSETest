@@ -10,7 +10,7 @@ public class Breakdemo1 {
        a : for (int i = 1;i<10;i++) {
             System.out.println("外层"+i+"开始");
             for (int j = 1; j < 10; j++) {
-                System.out.println("内层"+j+"开始");
+                System.out.println("123内层"+j+"开始");
                 if (j==3 )   {
                     break a;
                 }
